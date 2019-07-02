@@ -1,0 +1,152 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 55px;
+  background: #074a2f;
+  font-family: 'Calibri', serif;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 16px 10px;
+}
+
+.navbar ul li a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+.banner {
+  position: relative;
+  background: url("/wallpaper.ec11fd5f.png");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+}
+
+
+.banner h2 {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*estilizando ícone home*/
+.banner .fa {
+  position: absolute;
+  bottom: 300px;
+  left: 650px; 
+  color: #ffffff;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+/*centralizar texto do banner fixo a esquerda*/
+.frase-banner-fixo {
+  padding: 0em 40em 0em 0em;
+}
+
+/*adicionando e configurando imagem do banner fixo*/
+.advertise-count {
+  background: url(/comp.cbb9ccd2.jpg) no-repeat center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+}
+
+/*frase banner fixo*/
+.frase-banner-fixo h4 {
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+}
+
+.frase-banner-fixo h5 {
+  text-align: center;
+}
+
+.frase-banner-fixo h6 {
+  text-align: center;
+}
+
+/*sobre*/
+.content-w3pvt-img {
+    padding: 0 5em;
+}
+
+.content-w3pvt-img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+
+.col-md-7 p {
+  font-size: 18px;
+}
+
+.title-empresa, .title-quemsomos, .title-contato, .title-processadores {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+  color: #074a2f;
+  font-weight: bold;
+}
+
+.title-conectar, .fb-ic, .ins-ic {
+  color: #fff;
+}
+
+#map {
+  width: 100%;
+  height: 350px;
+}
+
+#rodape-text, #rodape-text1 {
+  text-align: justify;
+}
+
+#sobre-text p  {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.section-processador img {
+  float: left;
+}
+
+.section-processador #teste{
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pag-processador {
+  text-align: center;
+}
+
+#portfolio p{
+  text-align: center;
+}
+
+.title-produtos {
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Crimson Text', serif;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
